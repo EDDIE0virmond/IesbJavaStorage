@@ -1,5 +1,25 @@
 package Discs.Plate;
 
-public class Plate3 extends Plate{
-    private int Id;
+import Discs.SuperficeInferior;
+import Discs.SuperficeSuperior;
+
+public class Plate3 extends Plate implements SuperficeInferior , SuperficeSuperior{
+	 public Plate3(int id) {
+			super();
+			listsInferior.addToTrilha(305); 
+			listsSuperior.addToTrilha(305);
+			Id = id;
+		}
+
+		private int Id;
+
+		public int getId() {
+			return Id;
+		}
+
+		public void setId(int id) {
+			Id = id;
+		}
+
+		
 }

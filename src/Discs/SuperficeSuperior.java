@@ -1,7 +1,6 @@
 package Discs;
 
-import Trilhas.SingleTrails.Trilha1;
-
+import Lists.ListsTo;
 public interface SuperficeSuperior {
-    Trilha1 trilha1 = new Trilha1();
+	public ListsTo listsSuperior = new ListsTo();
 }

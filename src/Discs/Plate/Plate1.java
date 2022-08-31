@@ -1,7 +1,27 @@
 package Discs.Plate;
 
+import Discs.SuperficeInferior;
+import Discs.SuperficeSuperior;
 
-public class Plate1 extends Plate {
-    private int Id;
+
+public class Plate1 extends Plate implements SuperficeInferior , SuperficeSuperior {
+    public Plate1(int id) {
+		super();
+		listsInferior.addToTrilha(305); 
+		listsSuperior.addToTrilha(305);
+		Id = id;
+	}
+
+	private int Id;
+
+	public int getId() {
+		return Id;
+	}
+
+	public void setId(int id) {
+		Id = id;
+	}
+
+	
 
 }

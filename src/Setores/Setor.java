@@ -1,12 +1,15 @@
-package Trilhas;
+package Setores;
 
-public class Trilha {
+public class Setor {
 
-	public Trilha(int id) {
+	private int id;
+
+
+	public Setor(int id) {
 		super();
 		this.id = id;
 	}
-	private int id;
+
 
 	public int getId() {
 		return id;
