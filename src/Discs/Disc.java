@@ -12,8 +12,8 @@ public class Disc {
 
     private Plate1 plate1 = new Plate1(ListsTo.getRand().nextInt(100000));
     private Plate2 plate2 = new Plate2(ListsTo.getRand().nextInt(100000));
-    private Plate3 plate3 = new Plate3();
-    private Plate4 plate4 = new Plate4();
+    private Plate3 plate3 = new Plate3(ListsTo.getRand().nextInt(100000));
+    private Plate4 plate4 = new Plate4(ListsTo.getRand().nextInt(100000));
 
 
     public Plate1 getPlate1() {
