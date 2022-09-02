@@ -4,11 +4,14 @@ import Discs.Plate.Plate1;
 import Discs.Plate.Plate2;
 import Discs.Plate.Plate3;
 import Discs.Plate.Plate4;
+import Lists.ListsTo;
+
 
 public class Disc {
+	
 
-    private Plate1 plate1 = new Plate1();
-    private Plate2 plate2 = new Plate2();
+    private Plate1 plate1 = new Plate1(ListsTo.getRand().nextInt(100000));
+    private Plate2 plate2 = new Plate2(ListsTo.getRand().nextInt(100000));
     private Plate3 plate3 = new Plate3();
     private Plate4 plate4 = new Plate4();
 
